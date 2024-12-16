@@ -7,6 +7,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    padding: 15px 0;
+}
+
 .top-bar {
     text-align: center;
     background-color: #333333;
@@ -21,4 +25,45 @@
 header {
     width: 40rem;
     margin: auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 15px 0;
+    width: 30rem;
+    margin: auto;
+}
+
+.container > main > p {
+    padding: 10px 0;
+    text-align: justify;
+}
+
+#leia {
+    font: normal bold 1rem arial;
+}
+
+.container img {
+    border-radius: 5px;
+    width: 30rem;
+}
+
+#mini {
+    font: normal lighter .7rem arial;
+    color: rgb(75, 75, 75);
+}
+
+#save {
+    font-weight: bold;
+}
+
+footer p {
+    font-size : .7rem;
+    text-align: center;
+    color: rgb(75, 75, 75);
+    padding: 10px 0;
 }
